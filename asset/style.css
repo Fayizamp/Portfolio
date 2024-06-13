@@ -1,0 +1,232 @@
+:root {
+    --main-color: #b61648; /* Define your main color */
+}
+
+.nav-link:hover {
+    color: var(--main-color) !important; 
+}
+/* 
+.custom-btn {
+    background-color: #f8f9fa; 
+    color: #007bff; 
+    border: 1px solid #6c757d; 
+}
+
+.custom-btn:hover {
+    background-color: #007bff; 
+    color: #fff; 
+} */
+
+
+
+.custom-padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.project-box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background-color 0.3s;
+    text-align: center;
+    background-color: #cfcfcf; /* Light grey */
+}
+
+.project-box:hover {
+    transform: translateY(-10px);
+}
+
+.img {
+    border-radius: 20px;
+    width: 250px;
+}
+
+.project-box h3 {
+    color: #333;
+    margin-top: 15px;
+}
+
+.project-box p {
+    color: #302d2d;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+}
+
+.project-box {
+    max-width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.icon:hover {
+    border-color: #fff; /* Change border color on hover */
+}
+
+/* Additional styles for text colors */
+.text-section h1,
+.text-section h2,
+.text-section h3,
+.text-section p,
+.text-section ul li {
+    color: white; 
+}
+
+.hov:hover{
+    color: #007bff;
+}
+
+.icon-hov a:hover{
+    color: #158bec !important;
+    
+}
+
+
+.head_contact{
+    font-size: 3rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+}
+.contact {
+    background: #e5ecfb;
+    min-height: 60vh;
+}
+
+.contact .container {
+    max-width: 1050px;
+    width: 100%;
+    background: #fff;
+    border-radius: 1.5rem;
+    margin: 2rem 17rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.contact .container .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 2rem;
+}
+.contact .content .image-box {
+    max-width: 60%;
+    margin-left: 4rem;
+}
+.contact .content .image-box img {
+    width: 100%;
+    height: 30rem;
+    position: relative;
+}
+.contact .content form {
+    width: 45%;
+    margin-right: 3.5rem;
+}
+form .form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-group .field {
+    height: 50px;
+    display: flex;
+    position: relative;
+    margin: 1rem;
+    width: 100%;
+}
+form i {
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    color: rgb(51, 51, 51);
+    font-size: 17px;
+    pointer-events: none;
+    transform: translateY(-50%);
+}
+form .field input,
+form .message textarea {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 0 16px 0 48px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgb(51, 51, 51);
+    background: #e5ecfb;
+}
+.field input::placeholder,
+.message textarea::placeholder {
+    color: rgb(51, 51, 51);
+}
+.field input:focus,
+.message textarea:focus {
+    padding-left: 47px;
+    border: 2px solid rgb(35, 147, 240);
+}
+.field input:focus ~ i,
+.message textarea:focus ~ i {
+    color: rgb(44, 135, 219);
+}
+form .message {
+    position: relative;
+    margin: 1rem;
+    width: 100%;
+}
+form .message i {
+    top: 25px;
+    font-size: 20px;
+    left: 15px;
+}
+form .message textarea {
+    min-height: 130px;
+    max-height: 230px;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 12px 20px 0 48px;
+}
+form .message textarea::-webkit-scrollbar {
+width: 0px;
+}
+form .button-area {
+    display: flex;
+    float: right;
+    flex-direction: row-reverse;
+}
+
+
+.social-icons h5 {
+    margin-bottom: 10px; 
+}
+
+.social-icons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons a {
+    color: #000; 
+    font-size: 24px; 
+}
+.social-icons a:hover {
+    color: #3356f1; 
+    font-size: 24px; 
+}
+
+
+.footer-text {
+    margin-top: -11px;
+}
+
+
