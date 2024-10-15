@@ -229,4 +229,15 @@ form .button-area {
     margin-top: -11px;
 }
 
+.logo{
+
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-family: serif;
+
+}
+.section ul li{
+    margin-left: -25px;
+}
 
